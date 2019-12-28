@@ -30,7 +30,7 @@
 namespace oboe {
 
 constexpr int kBitsPerByte = 8;
-constexpr int kBufferQueueLength = 2; // double buffered for callbacks
+constexpr int kBufferQueueLength = 8; // double buffered for callbacks
 
 /**
  * INTERNAL USE ONLY
